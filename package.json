@@ -1,0 +1,59 @@
+{
+  "name": "awesome-monorepo-utilities",
+  "version": "0.0.1",
+  "description": "A curated list of awesome resources for Monorepos",
+  "main": "README.md",
+  "scripts": {
+    "check:spelling": "spellchecker --files '*.md' -d dictionary.txt",
+    "update:spelling": "spellchecker --files '*.md' --generate-dictionary",
+    "check:writing": "write-good *.md --no-passive",
+    "test": "concurrently 'yarn check:spelling' 'yarn check:writing'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monorepo-utilities/awesome-monorepo-utilities.git"
+  },
+  "author": "Jeffry Wainwright <jeffry.in> (yowainwright@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monorepo-utilities/awesome-monorepo-utilities/issues"
+  },
+  "homepage": "https://github.com/monorepo-utilities/awesome-monorepo-utilities#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/prompt": "^11.0.0",
+    "commitizen": "^4.2.3",
+    "concurrently": "^5.3.0",
+    "husky": "^4.3.8",
+    "spellchecker-cli": "^4.4.0",
+    "ts-node": "^9.1.1",
+    "write-good": "^1.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/@commitlint/prompt"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "header-max-length": [
+        2,
+        "always",
+        120
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-checkout": "if [[ $HUSKY_GIT_PARAMS =~ 1$ ]]; then yarn; fi",
+      "post-merge": "yarn",
+      "post-rewrite": "yarn",
+      "pre-commit": "yarn lint-staged"
+    }
+  }
+}

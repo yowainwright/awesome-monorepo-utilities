@@ -1,0 +1,7 @@
+Syncpack
+Workspaces
+monorepo
+monorepos
+mothership
+npm
+workspaces
