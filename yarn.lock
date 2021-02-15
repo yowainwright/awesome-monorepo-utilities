@@ -2043,10 +2043,10 @@ nlcst-to-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/nlcst-to-string/-/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"
   integrity sha512-3x3jwTd6UPG7vi5k4GEzvxJ5rDA7hVUIRNHPblKuMVP9Z3xmlsd9cgLcpAMkc5uPOBna82EeshROFhsPkbnTZg==
 
-no-cliches@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/no-cliches/-/no-cliches-0.2.2.tgz#8dca569aa9eb28a8c3f431804a5aadd524607f0a"
-  integrity sha512-iEOqDAOFl6uN5jZGRj39Jdo8qALzf2HPXtpFso8+BMaDylDrUMYMwhFbfYGgxdnMlsRnxYTwv68kaXEpsHIapg==
+no-cliches@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/no-cliches/-/no-cliches-0.3.0.tgz#c15f6fe6bff747a34d0475d7efe22c6754fba264"
+  integrity sha512-F5RA5GyDsJ9dYx2nFwzzy371BbFTBInQ/gO6arT+ngrI+1sDP5cSZxkWsVLgRoLMln4rs3xXBLjD2sLa7TnV1g==
 
 node-localstorage@^0.6.0:
   version "0.6.0"
@@ -3480,15 +3480,15 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-write-good@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/write-good/-/write-good-1.0.5.tgz#4ccfddc4747c96b986b25f4fa87de8b748ef3881"
-  integrity sha512-WZigea7T9sbxM1xlomFFhIUz7gbefMyoSV3BiSBGO2s5jGWCjQPtGMvYBcbwiTJxZvj8TRpFeLdeP0LJ4AL7og==
+write-good@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/write-good/-/write-good-1.0.7.tgz#a923988b93776164051eac687becb0413109a2e7"
+  integrity sha512-zhU9kVR9i6UBWYeYmSLa91WZYjtg8V94x8EMpByL/gTn6mW5QrD8yYTkWJC8Azx32Slq6A6NwA74R1m6Q+n9cg==
   dependencies:
     adverb-where "^0.2.1"
     commander "^2.19.0"
     e-prime "^0.10.4"
-    no-cliches "^0.2.2"
+    no-cliches "^0.3.0"
     passive-voice "^0.1.0"
     too-wordy "^0.3.0"
     weasel-words "^0.1.1"
