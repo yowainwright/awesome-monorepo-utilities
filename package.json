@@ -21,7 +21,7 @@
   "homepage": "https://github.com/monorepo-utilities/awesome-monorepo-utilities#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-conventional": "^12.0.0",
     "@commitlint/prompt": "^11.0.0",
     "commitizen": "^4.2.3",
     "concurrently": "^6.0.0",
