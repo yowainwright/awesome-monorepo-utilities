@@ -22,7 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@commitlint/prompt": "^12.1.4",
+    "@commitlint/prompt": "^13.2.1",
     "commitizen": "^4.2.4",
     "concurrently": "^6.2.0",
     "husky": "^4.3.8",
