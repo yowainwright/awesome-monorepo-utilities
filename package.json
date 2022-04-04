@@ -24,7 +24,7 @@
     "@commitlint/config-conventional": "^16.0.0",
     "@commitlint/prompt": "^12.1.4",
     "commitizen": "^4.2.4",
-    "concurrently": "^6.2.0",
+    "concurrently": "^7.1.0",
     "husky": "^7.0.4",
     "spellchecker-cli": "^4.8.1",
     "ts-node": "^9.1.1",
