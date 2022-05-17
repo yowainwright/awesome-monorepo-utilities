@@ -2239,10 +2239,10 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.7.tgz#e9c18a410e5ed7e12442a549fbd8afa767038d65"
   integrity sha512-U+MTEOO0AiDzxwFvoa4JVnMV6mZlJKk2sBLt90s7G0Gd0Mlknc7kxEn3nuDPNZRta7O2uy8oLcZLVT+4sqNZHQ==
 
-spellchecker-cli@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-4.8.1.tgz#2efa3ff535827b4c0384edae9dbd9acb3aba2736"
-  integrity sha512-7D4ZznwVTABfmyJEktFQNeO1epdDTy+AGZ3GWm9OerDDyFkzpCFNZ6IW+ZYpxcrmSJ92Xo0ppaJPRGPgH9uC5A==
+spellchecker-cli@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-4.10.1.tgz#7e6b798692b5966a281b68cd8da1fb07d630787b"
+  integrity sha512-MEBM0dlSWvPNkvVJe2LvH/QOPCj7y+rv3IAiFjBzZqz1vtlDBs6KId0cVme+VBRvr2MpLWIeRAkTXGJO9MC3Zg==
   dependencies:
     app-root-path "^3.0.0"
     chalk "^2.4.2"
