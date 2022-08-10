@@ -27,7 +27,6 @@
     "concurrently": "^6.2.0",
     "husky": "^8.0.1",
     "spellchecker-cli": "^6.0.2",
-    "ts-node": "^9.1.1",
     "write-good": "^1.0.8"
   },
   "config": {
@@ -45,15 +44,6 @@
         "always",
         120
       ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "post-checkout": "if [[ $HUSKY_GIT_PARAMS =~ 1$ ]]; then yarn; fi",
-      "post-merge": "yarn",
-      "post-rewrite": "yarn",
-      "pre-commit": "yarn test"
     }
   }
 }
