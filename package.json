@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/monorepo-utilities/awesome-monorepo-utilities#readme",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.0.3",
     "@commitlint/prompt": "^12.1.4",
     "commitizen": "^4.2.5",
