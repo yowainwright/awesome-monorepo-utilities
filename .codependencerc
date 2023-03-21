@@ -1,0 +1,13 @@
+{
+  "codependencies": [
+     "@commitlint/cli",
+    "@commitlint/config-conventional",
+    "@commitlint/prompt",
+    "codependence",
+    "commitizen",
+    "concurrently",
+    "husky",
+    "spellchecker-cli",
+    "write-good",
+  ]
+}
