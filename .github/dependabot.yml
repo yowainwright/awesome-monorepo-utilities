@@ -4,26 +4,4 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: concurrently
-    versions:
-    - 6.0.1
-  - dependency-name: husky
-    versions:
-    - 5.0.9
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
-    - 5.2.0
-  - dependency-name: "@commitlint/cli"
-    versions:
-    - 12.0.1
-  - dependency-name: "@commitlint/prompt"
-    versions:
-    - 12.0.1
-  - dependency-name: write-good
-    versions:
-    - 1.0.6
-    - 1.0.7
+  open-pull-requests-limit: 0
