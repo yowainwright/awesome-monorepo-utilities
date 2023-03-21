@@ -4,6 +4,7 @@ specifiers:
   '@commitlint/cli': ^12.1.4
   '@commitlint/config-conventional': ^17.4.4
   '@commitlint/prompt': ^12.1.4
+  codependence: ^0.2.6
   commitizen: ^4.3.0
   concurrently: ^6.5.1
   husky: ^8.0.3
@@ -14,6 +15,7 @@ devDependencies:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 17.4.4
   '@commitlint/prompt': 12.1.4
+  codependence: 0.2.6
   commitizen: 4.3.0
   concurrently: 6.5.1
   husky: 8.0.3
@@ -361,6 +363,10 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
+  /@types/tinycolor2/1.4.3:
+    resolution: {integrity: sha512-Kf1w9NE5HEgGxCRyIcRXR/ZYtDv0V8FVPtYHwLxl0O+maGX0erE77pQlD0gpP+/KByMZ87mOA79SjifhSB3PjQ==}
+    dev: true
+
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
@@ -659,6 +665,17 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /codependence/0.2.6:
+    resolution: {integrity: sha512-h6PXAlcJPwclfaGmJK23T7/zYuF0Gu/SuNcJvMKEkBvZoe0Xy4mzP2bzPpU8HFEZFpC6yNrveivzfQV8Ampr4w==}
+    hasBin: true
+    dependencies:
+      commander: 9.5.0
+      cosmiconfig: 7.1.0
+      fast-glob: 3.2.12
+      fs-extra: 10.1.0
+      gradient-string: 2.0.2
+    dev: true
+
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -702,6 +719,11 @@ packages:
 
   /commander/2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+    dev: true
+
+  /commander/9.5.0:
+    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
+    engines: {node: ^12.20.0 || >=14}
     dev: true
 
   /commitizen/4.3.0:
@@ -1153,6 +1175,15 @@ packages:
     engines: {node: '>=0.4.x'}
     dev: true
 
+  /fs-extra/10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: true
+
   /fs-extra/6.0.1:
     resolution: {integrity: sha512-GnyIkKhhzXZUWFCaJzvyDLEEgDkPfb4/TPvJCJVuS8MWZgoSsErf++QpiAlDnKFcqhRlm+tIOcencCjyJE6ZCA==}
     dependencies:
@@ -1263,6 +1294,14 @@ packages:
 
   /graceful-fs/4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+    dev: true
+
+  /gradient-string/2.0.2:
+    resolution: {integrity: sha512-rEDCuqUQ4tbD78TpzsMtt5OIf0cBCSDWSJtUDaF6JsAh+k0v9r++NzxNEG87oDZx9ZwGhD8DaezR2L/yrw0Jdw==}
+    engines: {node: '>=10'}
+    dependencies:
+      chalk: 4.1.2
+      tinygradient: 1.1.5
     dev: true
 
   /hard-rejection/2.1.0:
@@ -2879,6 +2918,17 @@ packages:
     resolution: {integrity: sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==}
     dependencies:
       readable-stream: 3.6.2
+    dev: true
+
+  /tinycolor2/1.6.0:
+    resolution: {integrity: sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==}
+    dev: true
+
+  /tinygradient/1.1.5:
+    resolution: {integrity: sha512-8nIfc2vgQ4TeLnk2lFj4tRLvvJwEfQuabdsmvDdQPT0xlk9TaNtpGd6nNRxXoK6vQhN6RSzj+Cnp5tTQmpxmbw==}
+    dependencies:
+      '@types/tinycolor2': 1.4.3
+      tinycolor2: 1.6.0
     dev: true
 
   /tmp/0.0.33:
