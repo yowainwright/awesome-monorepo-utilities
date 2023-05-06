@@ -7,7 +7,8 @@
     "check:spelling": "spellchecker --files '*.md' -d dictionary.txt",
     "update:spelling": "spellchecker --files '*.md' --generate-dictionary",
     "check:writing": "write-good *.md --no-passive",
-    "test": "concurrently 'chomp check:spelling' 'chomp check:writing'"
+    "test": "concurrently 'chomp check:spelling' 'chomp check:writing'",
+    "update": "codependence --update"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,12 @@
   },
   "homepage": "https://github.com/monorepo-utilities/awesome-monorepo-utilities#readme",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "@commitlint/prompt": "^12.1.4",
+    "@commitlint/prompt": "17.4.4",
+    "codependence": "^0.2.6",
     "commitizen": "^4.3.0",
-    "concurrently": "^6.5.1",
+    "concurrently": "7.6.0",
     "husky": "^8.0.3",
     "spellchecker-cli": "^6.1.1",
     "write-good": "^1.0.8"
