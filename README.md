@@ -8,6 +8,9 @@
 - **[Syncpack](https://github.com/JamieMason/syncpack):** Syncpack is monorepo dependency management tool. If you've ever struggled with slight dependencies differences across packages or maintaining uniform `package.json` files, then you can imagine the usefulness of Syncpack!
 - **[Pnpm](https://pnpm.js.org/):** Pnpm is package manager which links node_modules from a single content-addressable storage making installs faster and the `node_module` directory size much smaller. It has workspace functionality and supports everything Lerna does making it a great option for monorepo development when node apps are involved.
 - **[Turborepo](https://turborepo.org/):** Increments builds, lints, and tests to speed up development. Provides a `globalCache` to share updates between teammates and CI!
+- **[Bun](https://bun.sh):** Now that bun supports workspaces, it's a no brainer for monorepo development. Bun is a node replacement and is incredibly fast for installing node modules.
+- **[Earthly](https://earthly.dev/):** Earthly is a build tool that uses Dockerfiles to build images. It's a great option for monorepos because it's easy to share build steps across projects and it's easy to build and test locally and in CI.
+- **[Rush](https://rushjs.io/):** Rush is a monorepo build orchestrator, which supports incremental builds, and tooling for large scale typescript monorepos.
 
 ---
 

@@ -7,7 +7,7 @@
     "check:spelling": "spellchecker --files '*.md' -d dictionary.txt",
     "update:spelling": "spellchecker --files '*.md' --generate-dictionary",
     "check:writing": "write-good *.md --no-passive",
-    "test": "concurrently 'pnpm check:spelling' 'pnpm check:writing'"
+    "test": "concurrently 'chomp check:spelling' 'chomp check:writing'"
   },
   "repository": {
     "type": "git",
@@ -45,5 +45,8 @@
         120
       ]
     }
+  },
+  "dependencies": {
+    "chomp": "^0.2.14"
   }
 }

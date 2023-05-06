@@ -1,0 +1,22 @@
+version = 0.1
+
+[[task]]
+name = 'check:spelling'
+run = '''spellchecker --files '*.md' -d dictionary.txt'''
+
+[[task]]
+name = 'check:writing'
+run = 'write-good *.md --no-passive'
+
+[[task]]
+name = 'test'
+run = "concurrently 'chomp check:spelling' 'chomp check:writing'"
+
+[[task]]
+name = 'update:spelling'
+run = '''spellchecker --files '*.md' --generate-dictionary'''
+
+[[task]]
+name = 'bun:install'
+dep = 'package.json'
+target = 'bun.lockb'
