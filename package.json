@@ -7,7 +7,7 @@
     "check:spelling": "spellchecker --files '*.md' -d dictionary.txt",
     "update:spelling": "spellchecker --files '*.md' --generate-dictionary",
     "check:writing": "write-good *.md --no-passive",
-    "test": "concurrently 'pnpm check:spelling' 'pnpm check:writing'",
+    "test": "concurrently 'chomp check:spelling' 'chomp check:writing'",
     "update": "codependence --update"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@commitlint/prompt": "17.4.4",
+    "chomp": "^0.2.14",
     "codependence": "^0.2.6",
     "commitizen": "^4.3.0",
     "concurrently": "7.6.0",
